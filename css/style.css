@@ -5,6 +5,10 @@
     background-color: whitesmoke;
     
 }
+nav{
+position:fixed;
+top: 0;
+}
 .nav-link{
     display: inline-block;
 }

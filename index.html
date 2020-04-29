@@ -11,7 +11,7 @@
     <h2 style="display: none;">Hello World, we are software developers!</h2>
     <div class="container-fluid main">
       <header id="header">Product landing page for a smart phone
-        <nav id="nav-bar">
+        <nav id="nav-bar" class="navbar-fixed-top">
           <a href="#video" class="nav-link">Home</a>
           <a href="#form" class="nav-link">About</a>
           <a href="#ContactUS" class="nav-link">Contact Us</a>
@@ -25,8 +25,9 @@
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
 
       <br><br>
-      <form action="" id="form" class="form">
+      <form action=" https://www.freecodecamp.com/email-submit" method="POST" id="form" class="form">
         <input type="email" name="email" id="email" placeholder="Enter Email Here">
+        <input type="submit" value="Submit" id="submit">
       </form>
 
       <footer id="ContactUS"></footer>
