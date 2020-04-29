@@ -1,3 +1,13 @@
 .main{
-    margin: 0em 15em;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+.nav-link{
+    display: inline-block;
+}
+#header{
+    font-size: 35px;
 }
